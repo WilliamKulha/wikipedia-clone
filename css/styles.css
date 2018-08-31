@@ -1,10 +1,34 @@
+body {
+  inear-gradient:(white, #f0f0f0, #f0f0f0, #f0f0f0, #f0f0f0, #f0f0f0, #f0f0f0, #f0f0f0, #f0f0f0, #f0f0f0, #f0f0f0, #f0f0f0, #f0f0f0, #f0f0f0, #f0f0f0);
+}
+
 h3 {
   font-weight: normal;
+
 }
 
 h2 {
   font-weight: bold;
 }
+
+#wplogo {
+  width:100%
+}
+
+.navpanel {
+  margin-left:30px;
+  margin-top:20px;
+}
+
+#containerbig {
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+
+
+
+
 
 .go-right{
   text-align:right;
@@ -62,7 +86,7 @@ h2 {
 
 .panel-purple {
   background-color:#faf5ff;
-  margin-top:auto;
+
 
 }
 
@@ -76,6 +100,7 @@ h2 {
   border-color:#afa3bf;
   padding: .2em .4em;
   margin-top:10px;
+  width:auto;
 
 }
 
@@ -97,6 +122,7 @@ h2 {
 }
 
 .caption {
+  float:left;
   font-size:small;
   width:100%;
 }
@@ -109,19 +135,25 @@ h2 {
   padding-left:15px;
 }
 
-.gutcontainer {
-  padding-left:30px;
-  padding-right:30px
-}
-
 #featuredpic {
   float:left;
   height:30em;
   width:25em;
   padding-bottom:20px;
   padding-right:15px;
+  padding-left: 5px;
 }
 
 .soft {
   font-weight:normal;
+}
+
+#topbar{
+  height:3em;
+  text-align:right;
+  padding-bottom:1em;
+}
+
+.grayout {
+  color:gray;
 }
